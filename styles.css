@@ -25,6 +25,16 @@ header p {
     font-size: 1.2em;
     color: #9ba4b5;
 }
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a2e;
+    padding: 1em 0;
+    z-index: 1000; /* non-negotiable */
+    text-align: center;
+}
 nav a {
     margin: 0 15px;
     color: #fff;
