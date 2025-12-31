@@ -25,8 +25,11 @@ header p {
     font-size: 1.2em;
     color: #9ba4b5;
 }
+header {
+        position: fixed;
+}
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: #1a1a2e;
